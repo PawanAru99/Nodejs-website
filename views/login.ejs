@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <!-- Bootstrap Core CSS -->
+    <!-- <link href="../public/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../public/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <!-- <link href="../public/css/custom.css" rel="stylesheet"> -->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div id="header-wrapper" class="wrapper">
+        <a href="/main" title="Home">
+            <img class="img-responsive" id="mainlogo" src="./files/blog/mainlogo.jpg" alt="Logo">
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-globe"></span> Logo</a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">पतसंस्था</a>
+                    </li>
+                    <li>
+                        <a href="#">Useful Links</a>
+                    </li>
+                    <li>
+                        <!-- <form action="/file2" method="GET"> -->
+                        <a href="/qrcode">Qr code</a>
+                        <!-- <button type="submit">Open File 2</button> -->
+                        <!-- </form> -->
+                        <!-- <a href="qrcode">QR Code</a> -->
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="about-us">
+                            <li><a href="#">Member Details</a></li>
+                            <!-- <li><a href="#">Pontificate</a></li>
+							<li><a href="#">Synergize</a></li> -->
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Download<span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="about-us">
+                            <li><a href="./files/blog/patsansthaahaval2023.pdf">patsansahapdf</a></li>
+                            <li><a href="#">वार्षिक अहवाल</a></li>
+                            <!-- <li><a href="#">Synergize</a></li> -->
+                        </ul>
+                    </li>
+
+                    <!-- <li class="dropdown">
+						<li><a href="#"  role="button"   aria-haspopup="true"
+							aria-expanded="false"></a>Download</a></li>
+						<li></li>
+						<li></li>
+					</li> -->
+
+
+
+                    <li>
+                        <a href="#">Login/Register</a>
+                    </li>
+                    <li>
+                        <a href="#">सभासद हिताच्या योजना</a>
+                    </li>
+                    <li>
+                        <a href="/about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li><a href="/yojana">योजना</a></li>
+                    <li><a href="/ahavaal">वार्षिक अहवाल</a></li>
+
+
+
+
+                    <!-- Search -->
+                    <!-- <form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div>
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
+							Search</button>
+					</form> -->
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="title"><span>Login Form</span></div>
+            <form action="#">
+                <div class="row">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Email or Phone" required>
+                </div>
+                <div class="row">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="pass"><a href="#">Forgot password?</a></div>
+                <div class="row button">
+                    <input type="submit" value="Login">
+                </div>
+                <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="container">
+        <input type="checkbox" id="check">
+        <div class="login form">
+            <header>Login</header>
+            <form action="#">
+                <input type="text" placeholder="Enter your email">
+                <input type="password" placeholder="Enter your password">
+                <a href="#">Forgot password?</a>
+                <input type="button" class="button" value="Login">
+            </form>
+            <div class="signup">
+                <span class="signup">Don't have an account?
+                    <label for="check">Signup</label>
+                </span>
+            </div>
+        </div>
+        <div class="registration form">
+            <header>Signup</header>
+            <form action="#">
+                <input type="text" placeholder="Enter your email">
+                <input type="password" placeholder="Create a password">
+                <input type="password" placeholder="Confirm your password">
+                <input type="button" class="button" value="Signup">
+            </form>
+            <div class="signup">
+                <span class="signup">Already have an account?
+                    <label for="check">Login</label>
+                </span>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+    <footer>
+
+        <!-- <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+            <input type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
+            Search</button>
+    </form> -->
+
+        <div class="small-print">
+            <div class="container">
+                <p><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
+                <p>Copyright &copy; Example.com 2015 </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript  -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport bug workaround -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Placeholder Images -->
+    <script src="js/holder.min.js"></script>
+
+</body>
+
+</html>
